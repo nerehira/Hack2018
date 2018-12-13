@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ver_detalles"
+            android:icon="@drawable/ic_ver"
+            android:title="Ver detalles" />
+        <item
+            android:id="@+id/contribuir"
+            android:icon="@drawable/ic_contribuir"
+            android:title="Contribuir" />
+        <item
+            android:id="@+id/mostrar_senalizaciones"
+            android:icon="@drawable/ic_senalizaciones"
+            android:title="Mostrar señalizaciones" />
+        <item
+            android:id="@+id/configuraciones"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuraciones" />
+    </group>
+
+
+
+</menu>
